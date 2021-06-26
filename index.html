@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <h2 class="product-name">Nike Shoes</h2>
+            <a class="buy" href="#">Buy Now</a>
+            <div class="circle"></div>
+            <img class="product" src="shoes.png" />
+        </div>
+        <div class="box">
+            <h2 class="product-name">Nike Shoes</h2>
+            <a class="buy" href="#">Buy Now</a>
+            <div class="circle"></div>
+            <img class="product" src="shoes2.png" />
+        </div>
+        <div class="box">
+            <h2 class="product-name">Nike Shoes</h2>
+            <a class="buy" href="#">Buy Now</a>
+            <div class="circle"></div>
+            <img class="product" src="shoes3.png" />
+        </div>
+    </div>
+
+
+    <script src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+</body>
+</html>
